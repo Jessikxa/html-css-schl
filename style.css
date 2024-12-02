@@ -1,0 +1,51 @@
+
+
+body{
+    margin: 0;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 25% 50% 25%;
+}
+header{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kill-me ul{
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+    padding: 0;
+}
+
+.doggoo img{
+    height: 10vh;
+    width: 20vw;
+}
+
+.imooges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
+.imooges img{
+    height: 20vh;
+    width: 25vh;
+    border-style: groove ;
+    border-radius: 5%;
+    box-shadow: 5px 10px #888888;
+    padding: 0;
+}
+
+.footer{
+    background-color:blueviolet;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
