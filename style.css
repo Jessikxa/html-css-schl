@@ -2,20 +2,35 @@
 
 body{
     margin: 0;
-    grid-template-columns: 50% 25% 25%;
-    grid-template-rows: 25% 50% 25%;
+   background-color: #AD8686;
 }
+
 header{
     background-color: bisque;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
+    border-style: dashed;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+header button{
+    background-color: rgb(209, 141, 52);
+    border: none;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .kill-me ul{
     list-style: none;
     display: inline;
+    color: rgb(26, 131, 223);
     margin-right: 30px;
     padding: 0;
 }
@@ -26,14 +41,14 @@ header{
 }
 
 .imooges {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-gap: 1vw;
 } 
 
 .imooges img{
     height: 20vh;
-    width: 25vh;
+    width: 20vw;
     border-style: groove ;
     border-radius: 5%;
     box-shadow: 5px 10px #888888;
@@ -41,7 +56,72 @@ header{
 }
 
 .footer{
-    background-color:blueviolet;
+    background-color: #EAD8C0;
+    opacity: 45%;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+.footer{
+    justify-content: center;
+}
+
+.button{
+    background-color: #ADB19E;
+    border: none;
+}
+
+
+.i-main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    text-align: center;
+}
+
+.imaages{
+    grid-column-start: 2/2;
+}
+
+.imaages img{
+    height: 40vh;
+    width: 40vw;
+}
+
+.main-text{
+    grid-column-start: 1/2;
+}
+
+.mainie{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+.smoothies{
+    grid-column: 1/2;
+}
+
+.smoothies img{
+    height: 40vh;
+    width: 40vw;
+}
+
+.baked-goods{
+    grid-column: 2/2;
+}
+
+.baked-goods fieldset{
+    border: none;
+}
+
+.footie{
+    background-color: #c7aca1;
+    justify-content: center;
     display: flex;
     position: fixed;
     bottom: 0;
