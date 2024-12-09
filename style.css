@@ -2,37 +2,45 @@
 
 body{
     margin: 0;
-   background-color: #AD8686;
+   background-color: #e7f0f1;
 }
 
 header{
-    background-color: bisque;
+    /* background-color: #ebd8c2; */
+    background-color: #adb19e;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
-    border-style: dashed;
+    /* border-style: dashed;
     border-top: 0;
     border-left: 0;
-    border-right: 0;
+    border-right: 0; */
 }
 
 header button{
-    background-color: rgb(209, 141, 52);
+    background-color: #fafafa;
     border: none;
 }
 
-.main{
+.i-main{
     display: flex;
     flex-wrap: wrap;
+    color: #555d39;
+    padding-top: 4em;
 }
 
 .kill-me ul{
-    list-style: none;
+    /* list-style: none; */
     display: inline;
     color: rgb(26, 131, 223);
     margin-right: 30px;
     padding: 0;
+}
+
+.kill-me li{
+    list-style: none;
+    margin-top: 20px;
 }
 
 .doggoo img{
@@ -89,6 +97,7 @@ header button{
 .imaages img{
     height: 40vh;
     width: 40vw;
+    border-radius: 2%;
 }
 
 .main-text{
@@ -100,6 +109,7 @@ header button{
     grid-template-columns: 50% 50%;
     justify-content: center;
     text-align: center;
+    margin-top: 40px;
 }
 
 .smoothies{
@@ -109,6 +119,7 @@ header button{
 .smoothies img{
     height: 40vh;
     width: 40vw;
+    border-radius: 3%;
 }
 
 .baked-goods{
@@ -129,3 +140,51 @@ header button{
     left: 0;
     width: 100%;
 }
+
+
+a {
+    text-decoration: none;
+    outline-color: transparent;
+  }
+  
+  a:link {
+   color: #f2f3f4;
+  }
+  
+  a:visited {
+  color: #0a7e8c;
+  }
+  
+  a:focus {
+  color:#9171ac;
+  }
+  
+  a:hover {
+  color:#bb47de;
+  background-color:#7dae73;
+  }
+  /* #fce50f */
+  a:active {
+  color:#e6c3ca;
+  }
+    
+
+
+  .yelp{
+    background-color: #0a7e8c;
+    display: flex;
+    /* flex-wrap: wrap; */
+    column-gap: 20vw;
+    flex: 1 1 auto;
+
+    /* flex-direction: row;
+    flex-basis: 100px; */
+  }
+
+  .yelp img{
+     height: 20vh;
+    width: 20vw; 
+    /* justify-content: space-around;
+    margin-right: 30%; */
+    /* margin-right: 10%; */
+  }
