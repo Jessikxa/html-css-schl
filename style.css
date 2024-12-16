@@ -5,7 +5,10 @@
     min-height: 761px;
     max-height: 5120px;
 } */
-
+@font-face{
+    font-family: myFont;
+    src: url(font/nesia-yyay5.otf);
+}
 
 body{
     min-width: 650px;
@@ -74,9 +77,15 @@ header button{
     border-style: groove ;
     border-radius: 5px;
     border-color:  #0a7e8c;;
-    box-shadow: 5px 10px #888888;
+    
     padding: 0;
     object-fit:scale-down;
+}
+
+.imooges img:hover{
+    box-shadow: -1em 0 1em;
+    /* box-shadow: 10px 10px 90px -10px  ; */
+    /* box-shadow: 5px 10px #888888; */
 }
 
 .footer{
@@ -129,18 +138,21 @@ header button{
 
 .imaages{
     grid-column-start: 2/2;
+    grid-column-end: 2/2;
     padding: 2em;
 }
 
 .imaages img{
     height: 20rem;
-    width: 20rem; 
+    width: 40rem; 
     /* height: 300px;
     width: 300px; */
-    border-radius: 2%;
+    border-radius: 2px;
+    object-fit: cover;
 }
 
 .photoMain {
+    font-family: myFont;
     align-items: center;
     text-align: center;
     color: #555d39;
@@ -164,9 +176,10 @@ header button{
 }
 
 .smoothies img{
-    height: 40vh;
-    width: 40vw;
-    border-radius: 3%;
+    height: 59vh;
+    width: 30vw;
+    border-radius: 3px;
+    object-fit: cover;
 }
 
 .baked-goods{
@@ -243,6 +256,7 @@ a {
     height: 100%;
     width: 100%;
     object-fit: scale-down;
+    border-radius: 50px;
 }
 
 .cinderella-txt {
