@@ -5,3 +5,7 @@
 .yelp img:hover{
     box-shadow: -1em 0 .9em olive ;
 }
+
+.grad{
+    background-image: linear-gradient(180deg, red,yellow);
+}
