@@ -39,9 +39,13 @@ header button{
     border: none;
 }
 
+
+
 .i-main{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    text-align: center;
     color: #555d39;
     padding-top: 4em;
     margin-bottom: 50px;
@@ -127,12 +131,7 @@ header button{
     background-color: #dabce3;
 }
 
-.i-main{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    justify-items: center;
-    text-align: center;
-}
+
 
 
     
@@ -178,11 +177,17 @@ header button{
     grid-template-columns: 50% 50%;
     justify-content: center;
     text-align: center;
+    color: #555d39;
     margin-top: 40px;
 }
 
 .smoothies{
     grid-column: 1/2;
+}
+
+.smoothies p{
+    line-height: 0.5;
+    font-weight: 800;
 }
 
 .smoothies img{
@@ -194,11 +199,19 @@ header button{
 
 .baked-goods{
     grid-column: 2/2;
+    padding-bottom: 50px;
+}
+
+.baked-goods p{
+    font-weight: 600;
 }
 
 .baked-goods fieldset{
     border: none;
 }
+
+
+
 
 .footie{
     background-color: #c7aca1;
@@ -286,13 +299,43 @@ a {
 
 /* gotta do all this:") */
 @media screen and (max-width: 600px){
+    .i-main{
+        grid-template-columns: 1fr;
+    }
+
+    .imaagestxt{
+        padding-bottom: 50px;
+    }
+
+
     .imaages img{
         float: none;
         width: 100%;
+        
     }
     
+    .smoothies p {
+        line-height: 0.7;
+    }
+    .smoothies img{
+        width: 100%;
+    }
+
+    .mainie{
+        /* display: inline-masonry; */
+        display: inline;
+    }
+
+    .imooges{
+        grid-column-gap: 6vw;
+        grid-row-gap: 15vh;
+    }
+    
+    body{
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width: 992px) {
-    body{}
+    /* body{} */
 }
