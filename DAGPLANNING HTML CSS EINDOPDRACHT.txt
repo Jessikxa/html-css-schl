@@ -1,0 +1,118 @@
+DAGPLANNING HTML CSS EINDOPDRACHT
+
+
+*18/11:
+~~~~~~
+-Start aan wireframe maken met figma.
+-colour pallet, header+ navigation, footer voor home page en 
+
+
+
+*19/11:
+~~~~~~
+8:30-10:00 -> -wireframe verder verwerken. 
+Form page toegevoegd. 
+
+12:30-14:00 -> dagplanning aanpassen + begin maken in vsCode.
+BRAIN DUMP
+
+waar mee beginnen in vscode?
+
+onderwerp nodig zodat ik text kan verzinnen. kan ook opzich lorem gebruiken… could be about ideation.. so many ideas so it sorta fits
+
+wil ik een list voor de navigation page texts? misschien handig to align 
+
+
+
+
+*20/11:
+~~~~~~
+-begin maken aan header stylen in css. make the button link to the photoalb page for now to test if it works. 
+
+het werkt.  wireframe af.
+
+
+
+*27/11:
+~~~~~~
+-informatie opzoeken over grid
+grid beter begrijpen. hoe en wanneer grid gebruiken.
+
+
+
+*02-09/12/24:
+~~~~~~~~~~~~
+- changed navigation link buttons(top right) text to current/relevant text
+
+form page:
+- added filler questions + input labels to form page to get idea of layout page
+
+css:
+-change background colours for body, header
+-fix styling issue with unesthetic styling nav bar li by;
+-adding colour to links. also when visited, focus, hover and active 
+
+
+*10/12/24:
+~~~~~~~~~~
+home page:
+-changed logo(top left corner) from stock image to current
+-added link to google font (later vernderd).
+-removed an unnecessary nav button
+
+home page:
+- added main info and pictures in home page
+
+photo page:
+- added a bunch of songs(img with href link to spotify page)
+
+form page:
+- added few questions + inputs for users answer
+
+css:
+-added grid to photo page for the photos 
+- adjusted height and width of pages
+
+
+*13/12/24:
+~~~~~~~~~~
+home page:
+-changed <p> text
+
+photo page:
+-added box-shadow animation when hovering over songs in photo page
+-more songs added to photo page(added images in img folder, add image with href link that links to and opens song on spotify in new tab)
+
+
+form page:
+- change stock image to current image
+
+css:
+-imported new font and added to photo page
+
+
+
+*06/01/25:
+~~~~~~~~~~
+-added media query
+was coded earlier(don't remember when) maar op 06/01 geupload
+
+
+
+*07/01/25:
+~~~~~~~~~~
+media query:
+-changing layout to fit phone screen size
+
+form page:
+-added more questions
+-change input type:"text" to textarea
+-changed font-colour
+
+photo page:
+-fixed issue with title spacing for one song
+
+css:
+
+-combined accidental double class + deleted unnecessary code
+
