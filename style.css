@@ -51,7 +51,7 @@ header button{
     margin-bottom: 50px;
 }
 
-.kill-me ul{
+.nav ul{
     /* list-style: none; */
     display: inline;
     color: rgb(26, 131, 223);
@@ -59,12 +59,12 @@ header button{
     padding: 0;
 }
 
-.kill-me li{
+.nav li{
     list-style: none;
     margin-top: 20px;
 }
 
-.doggoo img{
+.loggoo img{
     height: 64px;
     width: 64px;
 }
@@ -327,7 +327,8 @@ a {
     }
 
     .imooges{
-        grid-column-gap: 6vw;
+        grid-template-columns: 45vw 45vw;
+        grid-column-gap: 9vw;
         grid-row-gap: 15vh;
     }
     
